@@ -10,7 +10,8 @@ using lint = long long;
 #define rep(i, n) for(int i = 0; i < (int)(n); i++)
 
 int main(){
-    char b; cin >> b;
+    char b; 
+    cin >> b;
 
     if(b=='A') cout << 'T' << endl;
     else if(b=='T') cout << 'A' << endl;
