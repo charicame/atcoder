@@ -1,0 +1,24 @@
+#include<iostream>
+#include<string>
+#include<cmath>
+#include<algorithm> //max,min
+#include<iomanip> //setprecision,tuple
+#include<vector>  //vector
+#include<numeric> //iota
+#include<map> //map
+#include<set> //set
+using namespace std;
+using lint = long long;
+#define INF 2147483647
+#define PI acos(-1)
+#define rep(i, n) for(int i = 0; i < (int)(n); i++)
+
+int main(){
+    string s,t;cin>>s>>t;
+    int a,b;cin>>a>>b;
+    string u;cin>>u;
+    if(s==u)a--;
+    else if(t==u)b--;
+    cout<<a<<" "<<b<<endl;
+    return 0;
+}
